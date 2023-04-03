@@ -9,6 +9,7 @@ body {
 
 /* HEADER */
 /* Logo */
+
 .header-logo {
   padding: 35px;
 
@@ -24,6 +25,7 @@ body {
 }
 
 /* Navigation */
+
 .nav-list {
   margin: 0;
   padding: 0 35px;
@@ -53,6 +55,7 @@ a.nav-link {
 
 /* MAIN */
 /* Banner */
+
 .banner-container {
   padding: 0 35px;
 
@@ -118,6 +121,7 @@ a.cta.check-it-out {
 }
 
 /* Products */
+
 .products-container {
   padding: 100px 35px;
   display: flex;
@@ -142,4 +146,27 @@ h2 {
 
 a.cta.buy {
   width: 215px;
+}
+
+/* FOOTER */
+
+.footer-wrapper {
+  padding: 200px 0 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-image: url(img/gatorade_orange-liquid_footer-bg.png);
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+
+.footer-wrapper > img {
+  width: 60vw;
+  height: auto;
+}
+
+.footer-wrapper > p {
+  color: #fff;
 }
