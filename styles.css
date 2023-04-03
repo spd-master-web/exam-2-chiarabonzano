@@ -7,6 +7,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* HEADER */
+/* Logo */
 .header-logo {
   padding: 35px;
 
@@ -21,6 +23,7 @@ body {
   height: auto;
 }
 
+/* Navigation */
 .nav-list {
   margin: 0;
   padding: 0 35px;
@@ -41,9 +44,69 @@ body {
   border-bottom: 15px solid #ef7226;
 }
 
-.nav-link {
+a.nav-link {
   color: #000;
   font-size: 26px;
   font-weight: 600;
   text-decoration: none;
+}
+
+/* MAIN */
+/* Banner */
+.banner-container {
+  padding: 0 35px;
+
+  display: flex;
+  justify-content: center;
+
+  background-color: #313131;
+}
+
+.banner-container > img {
+  max-width: 500px;
+  height: auto;
+}
+
+.banner-content {
+  min-width: 200px;
+  max-width: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+
+  font-size: 46px;
+  color: #fff;
+}
+
+.banner-content > p {
+  margin: 0;
+  padding: 20px 0 50px;
+
+  color: #fff;
+  line-height: 1.2;
+}
+
+a.check-it-out_cta {
+  width: 300px;
+  height: 60px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #ef7226;
+  border-radius: 10px;
+
 }
