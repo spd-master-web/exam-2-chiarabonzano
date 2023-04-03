@@ -170,3 +170,70 @@ a.cta.buy {
 .footer-wrapper > p {
   color: #fff;
 }
+
+/* MOBILE VIEWPORT */
+
+@media (max-width:960px) {
+  
+  .header-logo > picture > img {
+    width: 40vw;
+    height: auto;
+  }
+
+  .nav-list {
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    padding: 25px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-bottom: 1px solid #fff;
+  }
+
+  .nav-item:hover {
+  padding-bottom: 11px;
+  }
+  
+  .banner-container {
+    padding: 50px 25px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner-content {
+    order: 1;
+
+    align-self: start;
+  }
+
+  .products-container {
+    padding: 50px 25px 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-card {
+    width: 60vw;
+    height: auto;
+    padding-top: 100px;
+  }
+
+  .footer-wrapper {
+    padding-bottom: 50px;
+
+    background-image: url(img/gatorade_orange-liquid_footer-bg.png);
+    background-size: cover;
+  }
+}
